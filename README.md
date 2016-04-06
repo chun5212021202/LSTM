@@ -14,25 +14,25 @@
 
 7. Default parameters are as follows. You are strongly suggested to adjust those values properly, since they aren't quite robust.
         
-      LSTM_EPOCH = 20
+        LSTM_EPOCH = 20
 
-      LSTM_DEPTH = 1
+        LSTM_DEPTH = 1
 
-      LSTM_H_DIMENSION = 512
+        LSTM_H_DIMENSION = 512
       
-      LSTM_X_DIMENSION = 300
+        LSTM_X_DIMENSION = 300
       
-      LSTM_Y_DIMENSION = 300
+        LSTM_Y_DIMENSION = 300
       
-      LSTM_LEARNING_RATE = 0.001
+        LSTM_LEARNING_RATE = 0.001
 
-      LSTM_DECAY = 0.99994  #NOT USED! SO IGNORE IT
+        LSTM_DECAY = 0.99994  #NOT USED! SO IGNORE IT
       
-      LSTM_ALPHA = 0.99
+        LSTM_ALPHA = 0.99
       
-      LSTM_GRAD_BOUND = 0.1 #NOT USED! SO IGNORE IT
+        LSTM_GRAD_BOUND = 0.1 #NOT USED! SO IGNORE IT
       
-      LSTM_OUTPUT_FILE = 'ResultLSTM/result_test.lab'
+        LSTM_OUTPUT_FILE = 'ResultLSTM/result_test.lab'
 
 8. Optimizations should be implemented in LSTM_XXX.py or LSTM.py. You can use different activation function or optimizer, the default is RMSProp.
 
